@@ -1,0 +1,26 @@
+{
+  "name": "erstecase_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorGolachev/ErsteCase_Cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorGolachev/ErsteCase_Cypress/issues"
+  },
+  "homepage": "https://github.com/IgorGolachev/ErsteCase_Cypress#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "typescript": "^4.7.4"
+  }
+}

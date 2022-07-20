@@ -17,10 +17,12 @@
   },
   "homepage": "https://github.com/IgorGolachev/ErsteCase_Cypress#readme",
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
     "cypress": "^10.3.0"
   },
-  "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^11.5.1",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/cucumber-test/**/*.{js,ts}"
   }
 }

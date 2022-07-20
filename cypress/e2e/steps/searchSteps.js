@@ -1,6 +1,6 @@
-import { And, Then } from "cypress-cucumber-preprocessor/steps";
-import search_results from "../../../fixtures/search_results.json";
-import TransactionsListPage from "../../../page-objects/transactionsListPage";
+import { And, Then } from "@badeball/cypress-cucumber-preprocessor";
+import search_results from "../../fixtures/search_results.json";
+import TransactionsListPage from "../../page-objects/transactionsListPage";
 
 const transactions = new TransactionsListPage();
 

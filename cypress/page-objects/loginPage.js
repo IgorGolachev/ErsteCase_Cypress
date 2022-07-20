@@ -3,7 +3,8 @@ class LoginPage {
     SELECTOR_LOGIN_BTN = 'app-button[id="btn.continue"] div div';
 
     proceedToLogin() {
-        return cy.get(this.SELECTOR_LOGIN_BTN).click()
+        cy.visit('https://george.csas.cz/?login_hint=7777777777')
+        cy.get(this.SELECTOR_LOGIN_BTN).click()
     }
 }
 
